@@ -1,0 +1,5 @@
+Delay(1000)
+local wnd = FindWindow("腾讯游戏客户端")
+MsgBox(wnd)
+local tix, tiy = WindowPos(wnd)
+MoveWindow(wnd, 0, 0)
